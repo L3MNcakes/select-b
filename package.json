@@ -1,0 +1,27 @@
+{
+  "name": "select-b",
+  "version": "0.0.1",
+  "description": "A vanilla js library for handling select inputs.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build-dev": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L3MNcakes/select-b.git"
+  },
+  "author": "Brandon Soucie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/L3MNcakes/select-b/issues"
+  },
+  "homepage": "https://github.com/L3MNcakes/select-b#readme",
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

@@ -1,0 +1,44 @@
+<style>
+    .select-b-single-container {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 3px;
+        width: inherit;
+    }
+
+    .select-b-single-input {
+        padding: 5px;
+        flex-basis: 95%;
+    }
+
+    .select-b-single-dropdown-icon {
+        padding: 5px;
+        border-left: 1px solid #666;
+        flex-basis: 5%;
+        cursor: pointer;
+    }
+
+    .select-b-single-options {
+        border: 1px solid black;
+        width: inherit;
+    }
+
+    .select-b-single-options span {
+        display: flex;
+        padding: 5px;
+    }
+
+    .select-b-single-options span:hover {
+        background-color: #003399;
+        color: #FFF;
+    }
+</style>
+<div class="select-b-single-container">
+    <div class="select-b-single-input"></div>
+    <div class="select-b-single-dropdown-icon">&#9660;</div>
+</div>
+<div hidden class="select-b-single-options"></div>
+<slot hidden></slot>
